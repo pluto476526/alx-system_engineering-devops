@@ -151,3 +151,29 @@ $ echo "Hello" | ./101-rot13
 Uryyb
 $ echo "Uryyb" | ./101-rot13
 Hello
+```
+
+
+# 16-odd
+
+This script prints every other line from the input, starting with the first line.
+- `paste - -` groups lines in pairs.
+- `cut -f1` extracts the first line from each pair, which corresponds to odd-numbered lines.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
