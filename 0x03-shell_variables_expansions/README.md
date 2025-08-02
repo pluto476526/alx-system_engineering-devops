@@ -69,3 +69,19 @@ School
 ```
 
 
+
+# 7-create_global_variable
+
+This script creates a new **global (environment) variable** named `BEST` with the value `School`.
+
+Because it is exported, the variable is available to the current shell session and all child processes.
+
+**Example:**
+```bash
+$ source ./7-create_global_variable
+$ echo $BEST
+School
+$ bash
+$ echo $BEST
+School
+
