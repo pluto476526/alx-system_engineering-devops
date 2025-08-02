@@ -135,6 +135,19 @@ This script prints the value stored in the environment variable `NUM` with exact
 # 14-decimal_to_hexadecimal
 
 This script converts a decimal (base 10) number stored in the environment variable `DECIMAL` to hexadecimal (base 16).
-
 `printf "%x\n"` formats the decimal number as hexadecimal.
 
+
+# 15-rot13
+
+This script encodes or decodes text using **ROT13** encryption.
+ROT13 shifts each letter by 13 places in the alphabet.
+
+`tr 'A-Za-z' 'N-ZA-Mn-za-m'` maps each letter to its ROT13 equivalent.
+
+**Example:**
+```bash
+$ echo "Hello" | ./101-rot13
+Uryyb
+$ echo "Uryyb" | ./101-rot13
+Hello
