@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $((${#WATER} + ${#STIR})) | tr '0-9' 'bestchol'
+echo $((${#WATER} * 5#1 + ${#STIR} * 4#1)) | tr '01234567' 'bestchol'
