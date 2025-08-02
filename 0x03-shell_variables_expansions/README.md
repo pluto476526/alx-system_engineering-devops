@@ -84,4 +84,15 @@ School
 $ bash
 $ echo $BEST
 School
+```
+
+
+
+# 8-true_knowledge
+
+This script prints the sum of:
+- The number `128`
+- The value stored in the environment variable `TRUEKNOWLEDGE`
+
+It uses Bash arithmetic expansion `$(( ... ))` to perform the addition.
 
