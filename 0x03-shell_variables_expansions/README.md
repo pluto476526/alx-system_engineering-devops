@@ -29,3 +29,14 @@ This script appends `/action` to the end of the system `PATH` environment variab
 
 By doing this, `/action` becomes the last directory the shell searches when looking for executables.
 
+
+
+# 3-paths
+
+This script counts the number of directories listed in the `PATH` environment variable.
+
+It works by:
+1. Taking the value of `$PATH`.
+2. Replacing `:` with newlines to separate directories.
+3. Counting the lines with `wc -l`.
+
