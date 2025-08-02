@@ -115,3 +115,18 @@ It uses Bash arithmetic expansion `$(( ... ))` with the exponentiation operator 
 This script converts a binary number (base 2) stored in the environment variable `BINARY` to its decimal (base 10) equivalent.
 It uses Bash arithmetic expansion with the syntax `base#number`.
 
+
+
+# 12-combinations
+
+This script prints all possible combinations of two lowercase letters (`aa` to `zz`) in alphabetical order, except `oo`.
+- `echo {a..z}{a..z}` generates all two-letter combinations.
+- `tr ' ' '\n'` prints each combination on a new line.
+- `grep -v '^oo$'` removes the `oo` combination.
+
+
+# 13-print_float
+
+This script prints the value stored in the environment variable `NUM` with exactly **two decimal places**.
+`printf "%.2f\n"` formats the number to two decimal places.
+
