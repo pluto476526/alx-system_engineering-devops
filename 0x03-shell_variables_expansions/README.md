@@ -26,7 +26,6 @@ hello pluto
 # 2-path
 
 This script appends `/action` to the end of the system `PATH` environment variable.
-
 By doing this, `/action` becomes the last directory the shell searches when looking for executables.
 
 
@@ -34,9 +33,12 @@ By doing this, `/action` becomes the last directory the shell searches when look
 # 3-paths
 
 This script counts the number of directories listed in the `PATH` environment variable.
+It takes the value of `$PATH`, replaces `:` with newlines to separate directories, and counts the lines with `wc -l`.
 
-It works by:
-1. Taking the value of `$PATH`.
-2. Replacing `:` with newlines to separate directories.
-3. Counting the lines with `wc -l`.
+
+
+# 4-global_variables
+
+This script lists all the environment variables available in the current shell session.
+It uses the `printenv` command and displays the variables in `NAME=VALUE` format.
 
