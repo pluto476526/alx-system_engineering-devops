@@ -53,3 +53,19 @@ This script lists:
 
 It uses the `set` command to display all variables and functions defined in the current shell session.
 
+
+
+# 6-create_local_variable
+
+This script creates a new **local variable** named `BEST` with the value `School`.
+
+The variable is only available in the current shell session and its child processes when sourced.
+
+**Example:**
+```bash
+$ source ./6-create_local_variable
+$ echo $BEST
+School
+```
+
+
