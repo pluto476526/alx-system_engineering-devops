@@ -130,3 +130,11 @@ This script prints all possible combinations of two lowercase letters (`aa` to `
 This script prints the value stored in the environment variable `NUM` with exactly **two decimal places**.
 `printf "%.2f\n"` formats the number to two decimal places.
 
+
+
+# 14-decimal_to_hexadecimal
+
+This script converts a decimal (base 10) number stored in the environment variable `DECIMAL` to hexadecimal (base 16).
+
+`printf "%x\n"` formats the decimal number as hexadecimal.
+
