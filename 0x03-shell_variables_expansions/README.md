@@ -105,3 +105,12 @@ This script prints the result of dividing the value of the environment variable 
 It uses Bash arithmetic expansion `$(( ... ))` to perform the division.
 
 
+
+
+# 10-love_exponent_breath
+
+This script calculates `BREATH` raised to the power of `LOVE`, where both are environment variables.
+
+It uses Bash arithmetic expansion `$(( ... ))` with the exponentiation operator `**`.
+
+
