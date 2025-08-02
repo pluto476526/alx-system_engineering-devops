@@ -96,3 +96,12 @@ This script prints the sum of:
 
 It uses Bash arithmetic expansion `$(( ... ))` to perform the addition.
 
+
+
+# 9-divide_and_rule
+
+This script prints the result of dividing the value of the environment variable `POWER` by the value of the environment variable `DIVIDE`.
+
+It uses Bash arithmetic expansion `$(( ... ))` to perform the division.
+
+
