@@ -42,3 +42,14 @@ It takes the value of `$PATH`, replaces `:` with newlines to separate directorie
 This script lists all the environment variables available in the current shell session.
 It uses the `printenv` command and displays the variables in `NAME=VALUE` format.
 
+
+
+# 5-local_variables
+
+This script lists:
+- All **local variables**
+- All **environment variables**
+- All **shell functions**
+
+It uses the `set` command to display all variables and functions defined in the current shell session.
+
