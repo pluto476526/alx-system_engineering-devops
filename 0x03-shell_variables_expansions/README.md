@@ -50,7 +50,6 @@ This script lists:
 - All **local variables**
 - All **environment variables**
 - All **shell functions**
-
 It uses the `set` command to display all variables and functions defined in the current shell session.
 
 
@@ -58,7 +57,6 @@ It uses the `set` command to display all variables and functions defined in the 
 # 6-create_local_variable
 
 This script creates a new **local variable** named `BEST` with the value `School`.
-
 The variable is only available in the current shell session and its child processes when sourced.
 
 **Example:**
@@ -73,7 +71,6 @@ School
 # 7-create_global_variable
 
 This script creates a new **global (environment) variable** named `BEST` with the value `School`.
-
 Because it is exported, the variable is available to the current shell session and all child processes.
 
 **Example:**
@@ -93,7 +90,6 @@ School
 This script prints the sum of:
 - The number `128`
 - The value stored in the environment variable `TRUEKNOWLEDGE`
-
 It uses Bash arithmetic expansion `$(( ... ))` to perform the addition.
 
 
@@ -101,7 +97,6 @@ It uses Bash arithmetic expansion `$(( ... ))` to perform the addition.
 # 9-divide_and_rule
 
 This script prints the result of dividing the value of the environment variable `POWER` by the value of the environment variable `DIVIDE`.
-
 It uses Bash arithmetic expansion `$(( ... ))` to perform the division.
 
 
@@ -110,7 +105,13 @@ It uses Bash arithmetic expansion `$(( ... ))` to perform the division.
 # 10-love_exponent_breath
 
 This script calculates `BREATH` raised to the power of `LOVE`, where both are environment variables.
-
 It uses Bash arithmetic expansion `$(( ... ))` with the exponentiation operator `**`.
 
+
+
+
+# 11-binary_to_decimal
+
+This script converts a binary number (base 2) stored in the environment variable `BINARY` to its decimal (base 10) equivalent.
+It uses Bash arithmetic expansion with the syntax `base#number`.
 
